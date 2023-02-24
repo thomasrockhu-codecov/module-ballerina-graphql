@@ -2,6 +2,7 @@ fixes:
     - "ballerina/graphql/*/::../ballerina/"
 
 ignore:
+    - "ballerina-tests"
     - "compiler-plugin-tests"
     - "compiler-plugin"
     - "commons"
