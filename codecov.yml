@@ -1,17 +1,20 @@
 fixes:
-    - "ballerina/graphql/*/::../ballerina/"
+  - "ballerina/graphql/*/::../ballerina/"
 
 ignore:
-    - "ballerina-tests"
-    - "compiler-plugin-tests"
-    - "compiler-plugin"
-    - "commons"
+  - "ballerina-tests"
+  - "compiler-plugin-tests"
+  - "compiler-plugin"
+  - "commons"
 
 coverage:
-    precision: 2
-    round: down
-    range: "60...80"
-    status:
-        project:
-            default:
-                target: 80
+  precision: 2
+  round: down
+  range: "60...80"
+  status:
+    project:
+      default:
+        target: 80
+
+codecov:
+  max_report_age: off
