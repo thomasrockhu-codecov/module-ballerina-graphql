@@ -14,10 +14,4 @@ jobs:
                 if: github.event_name == 'pull_request'
                 uses: codecov/codecov-action@v3
                 with:
-                    files: ballerina/target/report/graphql/coverage-report.xml
-
-            -   name: Generate CodeCov Report
-                if: github.event_name == 'pull_request'
-                uses: codecov/codecov-action@v3
-                with:
                     files: ballerina-tests/target/report/graphql/coverage-report.xml
